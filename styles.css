@@ -52,12 +52,59 @@ a {
 
 .main-content {
     flex: 1;
+    height: 100vh;
 }
 
-.header {
+.header, .footer {
     font-weight: 600;
     background-color: rgb(243, 243, 243);
     padding: 20px;
     padding-top: 15%;
     padding-right: 30%;
+    box-shadow: 2px -2px 2px rgba(190, 190, 190,0.3);
+}
+
+.login {
+    color: rgb(5, 73, 53);
+    text-decoration: none;
+}
+
+.login-text {
+    margin: 10px 20px;
+}
+.create {
+    color: white;
+    margin: 15px 20px;
+    background-color: rgb(6, 88, 64);
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.6);      
+    font-weight: 600;  
+}
+button {
+    text-align: center;
+}
+
+.form-body {
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.entry {
+width: 30vw;
+}
+
+h2 {
+    width: 100%;
 }

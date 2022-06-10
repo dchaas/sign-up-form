@@ -21,8 +21,37 @@
                 <p>This is not a real online service! You know you need something like this in your life to help you relaie your deepest dreams. Sign up <em>now</em> to get started.</p>
                 <p>You <em>know</em> you want to.</p>
             </div>
-            <form action="./index.html" method="post"></form>
-            <div class="footer"></div>
+            <form class="form-body" action="./index.html" method="post">
+                <h2>Let's do this!</h2>
+                <div class = "entry">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name">
+                </div>
+                <div class="entry">
+                    <label for="first-name">LAST NAME</label>
+                    <input type="text" name="last-name">    
+                </div>
+                <div class="entry">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="entry">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="number" name="phone">    
+                </div>
+                <div class="entry">
+                    <label for="pass">PASSWORD</label>
+                    <input type="password" name="pass">    
+                </div>
+                <div class="entry">
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm">
+                </div>
+            </form>
+            <div class="footer">
+                <button class="create" type="submit">Create Account</button>
+                <p class="login-text">Already have an account? <a class="login" href="./index.html">Log in</a></p>
+            </div>
         </div>
     </div>
 
