@@ -1,7 +1,16 @@
+@font-face {
+    font-family: norse-bold;
+    src: url("Norse-Bold.otf");
+}
+
 body {
     margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.container {
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .icon-holder {
@@ -34,8 +43,21 @@ body {
     left: 100px;
     color: white;
     opacity: 0.7;
+    font-family: 'norse-bold';
 }
 
 a {
     color: white;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.header {
+    font-weight: 600;
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    padding-top: 15%;
+    padding-right: 30%;
 }
